@@ -11,3 +11,12 @@ function Something(a){
 let a=1;
 console.log(Something(a))
 console.log(a);
+
+function Somehing(b){
+    b= {name:"mina"};
+    return b;
+}
+let b={name:"mani"};
+
+console.log(Somehing(b))
+console.log(b);
