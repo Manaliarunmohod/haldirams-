@@ -1,5 +1,5 @@
-const make =() =>{
-    console.log("HELLO MANALI")
+const makesandwitch =() =>{
+    console.log("HELLO MANALI mohod")
 }
 
-module.exports=make;
+module.exports={makesandwitch}

@@ -1,8 +1,6 @@
-function hello(){
-    console.log("hello")
-    }
-    hello()
-    
-    const make=require("./add")
-    
-    make();
+const makesandwitch=require("./add")
+
+console.log(makesandwitch);
+
+makesandwitch.makesandwitch();
+
