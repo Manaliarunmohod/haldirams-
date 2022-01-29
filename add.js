@@ -1,5 +1,8 @@
-const makesandwitch =() =>{
-    console.log("HELLO MANALI mohod")
-}
+// const makesandwitch =() =>{
+//     console.log(`${nam}HELLO MANALI mohod`)
+// }
 
-module.exports={makesandwitch}
+// module.exports={makesandwitch}
+
+// const nam="minuu";
+
