@@ -18,7 +18,7 @@ console.log(totalValue);
 
 
 let h2 = document.createElement('h2');
-h2.innerText = `Total Price = ${totalValue} Rs`;
+h2.innerText = `Total Price = ${totalValue} ₹`;
 
 total.append(h2);
 
@@ -38,10 +38,10 @@ data.forEach(function (elem) {
 
     let price = document.createElement("p");
     price.setAttribute("id", "price");
-    price.innerText = `Price: ${elem.price}Rs`;
+    price.innerText = `Price: ${elem.price}₹`;
 
     let remove = document.createElement("button");
-    remove.innerHTML = "Remove";
+    remove.innerHTML = "Delete";
     
     remove.addEventListener("click", function(){
         mainDiv.innerHTML = null;

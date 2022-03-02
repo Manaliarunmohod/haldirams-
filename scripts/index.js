@@ -35,7 +35,7 @@ function appendData(element) {
 
         let price = document.createElement("p");
         price.setAttribute("id", "price");
-        price.innerText = `${i} Rs`;
+        price.innerText = `${i} ₹`;
         let p = i;
         
 
