@@ -21,16 +21,16 @@ function placeOrder(e){
         setTimeout(() => {
             console.log("Your order is ready");
             alert("Your order is ready")
-        }, 6000);
+        }, 8000);
         setTimeout(() => {
             console.log("Order out for delivery");
             alert("Order out for delivery")
-        }, 8000);
+        }, 10000);
         setTimeout(() => {
             console.log("Order delivered");
             alert("Order delivered");
-            window.location.href = "thanks.html";
-        }, 10000);
+            window.location.href = "thankyou.html";
+        }, 12000);
     
     
     }
